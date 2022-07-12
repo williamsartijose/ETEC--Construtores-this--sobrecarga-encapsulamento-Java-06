@@ -36,6 +36,17 @@ public class Program {
 		product.removeProducts(quantity);
 		System.out.println();
 		System.out.println("Updated data: " + product);
+		
+		//product.name = "computer"; The field Product.name is not visible por causa do PRIVATE
+        //Precisa criar o metodo Setname alterar o atributo
+		product.setName("computer");
+		//System.out.println("Updated name: "+ product.name);The field Product.name is not visible
+		//Precisa criar o metodo getName para acessar o atributo
+		System.out.println("Updated name: "+ product.getName());
+		product.setPrice(1200.00);
+		System.out.println("Update price: " + product.getPrice());
+		product.setQuantity(20);
+		System.out.println("Update quantity: " + product.getquantity());
 		sc.close();
 	}
 }

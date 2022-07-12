@@ -1,9 +1,9 @@
 package ExemploConstrutores.entities;
 public class Product {
 	//Atributo do Objeto name,price, quantity
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 	
 	//Criando o Construtor
 	public  Product(String name, double price, int quantity) { //paramentro do metodo 
@@ -23,6 +23,30 @@ public class Product {
 		this.price = price;
 	}
 	
+	
+	public void  setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public double getPrice() {
+		return price;
+	}
+	
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	public int getquantity() {
+		return quantity;
+	}
+	
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
 
 	public double totalValueInStock() {
 		return price * quantity;
