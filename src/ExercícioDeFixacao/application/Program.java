@@ -16,9 +16,9 @@ public class Program {
 
 		account ac;
 
-		System.out.println("Enter account number: ");
+		System.out.println("Enter Champion number: ");
 		int number = sc.nextInt();
-		System.out.print("Enter account holder: ");
+		System.out.print("Enter Champion holder: ");
 		sc.nextLine();
 		String holder = sc.nextLine();
 		System.out.print("Is there na initial deposit (y/n)? ");
@@ -43,14 +43,14 @@ public class Program {
 		System.out.print("Enter a deposit value: ");
 		double depositValue = sc.nextDouble();
 		ac.deposit(depositValue);
-		System.out.println("Updated account data:");
+		System.out.println("Updated Champion data:");
 		System.out.println(ac);
 
 		System.out.println();
 		System.out.print("Enter a withdraw value: ");
 		double withdrawValue = sc.nextDouble();
 		ac.withdraw(withdrawValue);
-		System.out.println("Updated account data:");
+		System.out.println("Updated Champion data:");
 		System.out.println(ac);
 
 		sc.close();

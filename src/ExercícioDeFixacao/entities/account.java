@@ -8,7 +8,7 @@ public class account {
 	//Criando o Construtor
 	public  account(int number, String holder) { //paramentro do metodo menos o saldo balace
 		this.number = number; //A this palavra-chave se refere ao objeto atual em um método ou construtor.
-		this.holder = holder;// sobre o This https://www.w3schools.com/java/ref_keyword_this.asp
+		this.holder = holder;
 		//this.balance = balance; //o saldo da conta não pode ser alterado livremente.
 	}
 	
