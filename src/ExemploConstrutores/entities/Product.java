@@ -7,10 +7,11 @@ public class Product {
 	
 	//Criando o Construtor
 	public  Product(String name, double price, int quantity) { //paramentro do metodo 
-		this.name = name;
-		this.price = price;
+		this.name = name; //A this palavra-chave se refere ao objeto atual em um método ou construtor.
+		this.price = price;// sobre o This https://www.w3schools.com/java/ref_keyword_this.asp
 		this.quantity = quantity;
 	}
+	
 
 	public double totalValueInStock() {
 		return price * quantity;
