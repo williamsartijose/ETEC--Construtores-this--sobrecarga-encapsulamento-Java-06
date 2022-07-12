@@ -44,9 +44,9 @@ public class Product {
 		return quantity;
 	}
 	
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
+//	public void setQuantity(int quantity) {
+//		this.quantity = quantity;
+//	}  para proteger o objeto produto para não ser alterado 
 
 	public double totalValueInStock() {
 		return price * quantity;
