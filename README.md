@@ -1,6 +1,5 @@
 # ETEC-Construtores-This-Sobrecarga-Encapsulamento-Java-06
 
-
 #### Construtores:
 
 • É uma operação especial da classe, que executa no momento da instanciação do objeto
