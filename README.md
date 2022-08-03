@@ -40,7 +40,7 @@ própria classe deve garantir isso.
 
 ## Exercício de fixação:
 #### Problema "Resolvido abaixo" -  
-(https://github.com/williamsartijose/ETEC-Praticando-Logicas-Estrutura-Repetitivas-Java-04/blob/main/src/EstruturaWhile_Enquanto/ProblemaCrescente.java)
+(https://github.com/williamsartijose/ETEC-Construtores-This-Sobrecarga-Encapsulamento-Java-06/tree/main/src/Exerc%C3%ADcioDeFixacao)
 
 Em um banco, para se cadastrar uma conta bancária, é necessário informar o número da conta, o nome do
 titular da conta, e o valor de depósito inicial que o titular depositou ao abrir a conta. Este valor de depósito
@@ -62,6 +62,10 @@ mostrando os dados da conta após cada operação.
 
 
 ## DESAFIO: Combate
+
+#### Problema "Resolvido abaixo" -  
+
+(https://github.com/williamsartijose/ETEC-Construtores-This-Sobrecarga-Encapsulamento-Java-06/tree/main/src/DesafioCombate)
 
 Em um jogo de combate, cada jogador joga com um campeão. Cada campeão possui um nome, uma 
 quantidade de ataque, armadura e vida. O combate entre dois campeões é organizado em turnos, de modo 
